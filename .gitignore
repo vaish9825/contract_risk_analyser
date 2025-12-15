@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Secrets - IMPORTANT!
+.streamlit/secrets.toml
+*.env
+
+# Temporary files
+temp.pdf
+
+# Local data
+data/
+WINDOWS_PATH_ISSUE.md
