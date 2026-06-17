@@ -81,5 +81,5 @@ def extract_clauses(full_contract_text):
             return []
 
     except Exception as e:
-        print(f"Error during Gemini API call for extraction: {e}")
+        st.error(f"Clause Extraction Error: {str(e)}")
         return []
