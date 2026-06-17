@@ -4,6 +4,9 @@ ClauseRisk Analyzer is a legal intelligence tool designed to help **non-lawyers,
 
 Built as a hackathon MVP, the project demonstrates how modern AI can simplify legal review and reduce hidden contractual risks.
 
+Live Demo:
+https://clause-risk-analyser.streamlit.app
+
 ---
 
 ## 🔍 What It Does
