@@ -61,6 +61,14 @@ if uploaded_file is not None:
     st.header("Contract Analysis Dashboard")
 
     df = pd.DataFrame(results)
+    csv = df.to_csv(index=False)
+
+    st.download_button(
+        label="📥 Download Report",
+        data=csv,
+        file_name="contract_analysis.csv",
+        mime="text/csv"
+    )
 
     # 4a. Risk Summary
     risk_counts = df['risk_level'].value_counts()
